@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulando a DOM</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <!-- DIV que será manipulada -->
+  <div id="manipula">
+    <p class="paragrafo">Com base nos argumentos apresentados na aula, é possivel entender que uma coisa é uma coisa e outra coisa é outra coisa, admito que não concordo nem discordo, muito pelo contrário.
+    </p>
+    <p class="paragrafo">É factivel que a Terra é um dos planetas mais conhecidos do mundo, mesmo sabendo que a vida é uma sucessão de sucessivos que sucedem sucessivamente sem cessar.Agora, mais do que nunca, é a hora, afinal, o importante é o que importa, pois onde quer que você esteja, você sempre estará lá.
+    </p>
+  </div>
+  <!-- FIM da DIV que foi manipulada -->
+
+
+  <h2 class="chamada"> Altere o Texto acima clicando nos botões</h2>
+
+
+  <!-- DIV que armazenará todos os botões -->
+  <div id="botoes">
+    <!-- Botão 01 - Atualizar-->
+    <input type="button" value="Atualizar" onclick="window.location.reload()" />
+    <!--Fim Botão 01-->
+    <!-- Botão 02 -Tamanho Fonte -->
+    <input type="button" value="Tamanho Fonte" onclick="mudatamanhofonte()" />
+    <!--Fim Botão 02-->
+    <!-- Botão 03 -Cor da Fonte -->
+    <input type="button" value="Cor Fonte" onclick="mudacorfonte()" />
+    <!--Fim Botão 03-->
+    <!-- Botão 04 -Cor background -->
+    <input type="button" value="Back Div" onclick="backdiv()" />
+    <!--Fim Botão 04-->
+    <!-- Botão 05 -Italico -->
+    <input type="button" value="Italico" onclick="italico()" />
+    <!--Fim Botão 05-->
+    <!-- Botão 06 -Negrito -->
+    <input type="button" value="Negrito" onclick="negrito()" />
+    <!--Fim Botão 06-->
+    <!-- Botão 7 - -->
+    <input type="button" value="Borda" ondblclick="borda()" />
+    <!--Fim Botão X-->
+    <!-- Botão 8 - -->
+    <input type="button" value="Tira Borda" onmouseenter="excluirborda()" />
+    <!--Fim Botão X-->
+    <!-- Botão 9 - -->
+    <input type="button" value="Esconder Div" onclick="esconderdiv()" />
+    <!--Fim Botão X-->
+    <!-- Botão 10 - -->
+    <input type="button" value="Aparece Div" onclick="aparecerdiv()" />
+    <!--Fim Botão X-->
+    <!-- Botão 11 - -->
+    <input type="button" value="nao" onclick="nao()"/>
+    <!--Fim Botão X-->
+    <!-- Botão 12 - -->
+    <input type="button" value="Back paragrafo" onclick="backgroundp()" />
+    <!--Fim Botão X-->
+    <!-- Botão 13 - -->
+    <input type="button" value="X" />
+    <!--Fim Botão X-->
+    <!-- Botão 14 - -->
+    <input type="button" value="X" />
+    <!--Fim Botão X-->
+    <!-- Botão X - -->
+    <input type="button" value="X" />
+    <!--Fim Botão X-->
+    <!-- Botão X - -->
+    <input type="button" value="X" />
+    <!--Fim Botão X-->
+    <!-- Botão X - -->
+    <input type="button" value="X" />
+    <!--Fim Botão X-->
+    <!-- Botão X - -->
+    <input type="button" value="X" />
+    <!--Fim Botão X-->
+
+  </div>
+  <!-- FIM da DIV que armazena todos os botões -->
+
+
+  <img id="image" src="xuxa.jpg">
+
+  <br>
+  <hr>
+</body>
+
+</html>
